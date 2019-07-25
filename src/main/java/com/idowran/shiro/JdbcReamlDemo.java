@@ -17,9 +17,9 @@ public class JdbcReamlDemo {
 		
 		// 1.创建JDBC领域
 		JdbcRealm jdbcRealm = new JdbcRealm();
-		dataSource.setUrl("jdbc:mysql://221.203.5.204:3306/Shiro");
+		dataSource.setUrl("jdbc:mysql://127.0.0.1:3306/Shiro");
 		dataSource.setUsername("root");
-		dataSource.setPassword("WsxOkmRfvUhb@#$123");
+		dataSource.setPassword("my123456");
 		// 设置数据源
 		jdbcRealm.setDataSource(dataSource);
 		// 设置权限开关，否则不能检测权限
